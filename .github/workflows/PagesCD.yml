@@ -16,7 +16,7 @@ jobs:
           npm ci
           npm run build
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action
+        uses: JamesIves/github-pages-deploy-action@3.5
         with:
           ACCESS_TOKEN: ${{ secrets.VTPwassan }}
           BRANCH: gh-pages
