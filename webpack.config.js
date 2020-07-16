@@ -38,6 +38,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: "src/manifest.webmanifest", to: "manifest.webmanifest" },
+        { from: "materials", to: "materials" },
       ],
     }),
   ],
