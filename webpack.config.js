@@ -39,6 +39,7 @@ module.exports = {
       patterns: [
         { from: "src/manifest.webmanifest", to: "manifest.webmanifest" },
         { from: "materials", to: "materials" },
+        { from: "src/voice.html", to: "voice.html" },
       ],
     }),
   ],
