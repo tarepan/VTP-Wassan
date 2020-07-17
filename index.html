@@ -60,8 +60,16 @@
     />
     <!-- fin -->
     <style>
-      body {
-        background-image: url("materials/icons/icon-512x512.png");
+      body::after {
+        content: "";
+        background: url("https://tarepan.github.io/VTP-Wassan/materials/icons/icon-512x512.png");
+        opacity: 0.4;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
         background-repeat: repeat;
       }
       .add-button {
