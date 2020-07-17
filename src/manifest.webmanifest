@@ -1,0 +1,8 @@
+{
+  "name": "template app",
+  "short_name": "template",
+  "display": "standalone",
+  "start_url": ".",
+  "theme_color": "black",
+  "background_color": "white"
+}
